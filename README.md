@@ -18,6 +18,7 @@ We used Google Colab with a Tesla T4 GPU (Free Tier) for experimentation. The da
 
 - `LOSO_CV.ipynb`  
   The main notebook for training and evaluating deep learning models. Uses a Leave-One-Subject-Out Cross-Validation strategy to assess model performance. The best-performing model is then trained and saved along with its trained weights.
+  Due to file size limits allowed by github the outputs have been removed, for results refer to `Report.pdf`.
 
 - `my_app.py`  
   A prototype Streamlit web application for local inference. Users can upload a `.csv` file, and the app will predict the gait label and display class probabilities. It relies on utility functions found in the `Utils` folder and is designed to be run locally (e.g., in VS Code).
